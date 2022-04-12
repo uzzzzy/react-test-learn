@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import renderer from 'react-test-renderer'
 
 import NavigationBar from '../../../components/navigation/navigation-bar'
@@ -11,8 +10,7 @@ import '@testing-library/jest-dom'
 afterEach(cleanup)
 
 it('render navigation bar', () => {
-    const div = document.createElement('div')
-    ReactDOM.render(<NavigationBar></NavigationBar>, div)
+    render(<NavigationBar></NavigationBar>)
 })
 
 it('check title', () => {

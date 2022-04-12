@@ -1,5 +1,4 @@
 import React from 'react'
-import ReactDOM from 'react-dom'
 import renderer from 'react-test-renderer'
 
 import Button from '../../../components/button/button'
@@ -10,8 +9,7 @@ import '@testing-library/jest-dom'
 
 afterEach(cleanup)
 it('render without crashing', () => {
-    const div = document.createElement('div')
-    ReactDOM.render(<Button></Button>, div)
+    render(<Button></Button>)
 })
 
 it('renders button correctly', () => {
