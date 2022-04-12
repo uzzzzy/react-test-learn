@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`matches snapshot 1`] = `
+<div
+  className="fixed top-0 left-0 bg-white w-full p-3"
+  data-testid="nav-bar-background"
+>
+  <div
+    className="flex container mx-auto justify-between"
+    data-testid="nav-bar-container"
+  >
+    <div
+      data-testid="nav-bar-title"
+    >
+      Home
+    </div>
+  </div>
+</div>
+`;
